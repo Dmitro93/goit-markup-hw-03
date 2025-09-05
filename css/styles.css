@@ -21,6 +21,7 @@ p {
     img {
         display: block;
         max-width: 100%;
+        height: auto;
     }
 
     a {
@@ -44,10 +45,25 @@ button {
 cursor: pointer;
 }
 
-.header-container {
+.container { 
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;  
+margin:  0 auto;
+}
+
+.section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+.page-header {
 border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+
 display: flex;
-justify-content: space-between;
 align-items: center;
 
 
@@ -61,8 +77,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-padding-left: 156px;
 margin-right: 76px;
+padding: 24px 0;
 }
 
 
@@ -90,6 +106,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding: 24px 0;
+display: block;
 }
 
 .nav-list .items-nav:hover, .items-nav:active, .items-nav:focus {
@@ -98,6 +116,7 @@ color: #2e2f42;
 
 .contacts {
 font-style: normal;
+margin-left: auto;
  display: flex;
     align-items: center;
 }
@@ -106,6 +125,7 @@ font-style: normal;
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contacts-items {
@@ -124,6 +144,13 @@ font-style: normal;
     color: #404bbf;
 }
 
+.hero {
+background-color: #2e2f42;
+padding: 188px 0;
+  }
+
+  
+
 .title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -133,13 +160,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: white;
 max-width: 496px;
-margin-bottom: 48px;
-
-}
-
-.main-section {
-   
-background-color: #2e2f42;
+margin: 0 auto;
+margin-bottom: 40px;
 }
 
 .btn {
@@ -151,8 +173,12 @@ letter-spacing: 0.04em;
 color: white;
 background-color: #4d5ae5;
 border-radius: 4px;
-display: flex;
+border: none;
 padding: 16px 32px;
+display: block;
+min-width: 169px;
+height: 56px;
+margin: 0 auto;
 }
 
 .btn:hover, .btn:active, .btn:focus {
@@ -163,9 +189,8 @@ padding: 16px 32px;
     display: flex;
     align-items: center;
     gap: 24px;
-    padding-left: 156px;
     
-    
+       
 }
 
 .advantages-items {
@@ -201,30 +226,35 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 margin-bottom: 72px;
-padding-left: 639px;
-
 }
 
 .list-items {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-list {
     display: flex;
     align-items: center;
     gap: 24px;
-    padding-left: 156px;
-        width: calc((100% - 72px)) / 4;
+     width: calc((100% - 72px)) / 4;
+     background-color: #fff;
+}
+
+.card {
+    padding: 32px 0;
+    text-align: center;
+    
 }
 
 .portfolio-list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    row-gap: 48px;
     gap: 24px;
-    padding-left: 156px;
-        width: calc((100% - 96px)) / 6;
-         justify-content: center;
+            width: calc((100% - 96px)) / 6;
+         
        
 }
 
@@ -236,6 +266,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .name-items {
@@ -270,9 +301,14 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.card-project {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+}
+
 .footer {
-    margin-top: 120px;
-    
+    padding: 100px 0;   
 background-color: #2e2f42;
 }
 
@@ -286,6 +322,7 @@ text-transform: uppercase;
 color: #4d5ae5;
 padding-top: 100px;
 margin-bottom: 16px;
+display: inline-block;
 }
 
 .logo-span {
@@ -298,29 +335,15 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-}
-
-.container { 
-max-width: 1158px;
-padding-left: 15px;
-padding-right: 15px;  
-margin-left:  0;
-margin-right:  0;
+max-width: 264px;
 
 }
 
-    .section {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
 
-.hero {
-background-color: #2e2f42;
-width: 1440px;
-display: flex;
- justify-content: center;
-  
-}
+
+    
+
+
 
 
 

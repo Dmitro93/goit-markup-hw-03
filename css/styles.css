@@ -201,9 +201,12 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
-width: calc((100% - 72px) / 4);
 
 
+}
+
+.li-items {
+    width: calc((100% - 72px) / 4);
 }
 
 .text-title {
@@ -255,7 +258,7 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-     width: calc((100% - 96px)) / 6;
+     
          
        
 }
@@ -303,6 +306,9 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.port-li {
+width: calc((100% - 96px)) / 6;
+}
 .card-project {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
